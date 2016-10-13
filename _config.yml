@@ -8,16 +8,13 @@ collections:
   uploads:
     title: Uploads
     output: true
-defaults:
-- scope:
-    path: ''
-    type: posts
-  values:
-    layout: post
-    permalink: "/posts/:title/"
-- scope:
-    path: ''
-    type: pages
-  values:
-    layout: page
-permalink: pretty
+email: nwright872@gmail.com
+description: 'Write an awesome description for your new site here. You can edit this
+  line in _config.yml. It will appear in your document head meta (for Google search
+  results) and in your feed.xml site description.
+
+'
+baseurl: ''
+url: http://lochmondysautomotive.siteleaf.net
+github_username: nwright872
+markdown: kramdown
