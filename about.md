@@ -1,6 +1,7 @@
 ---
 title: About
 permalink: "/about/"
+background_image: 
 layout: page
 ---
 
