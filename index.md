@@ -1,6 +1,9 @@
 ---
 title: Home
 permalink: "/"
+services:
+- heading: A service
+  body: Some content for the ervics
 layout: homepage
 ---
 
