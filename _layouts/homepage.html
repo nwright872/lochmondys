@@ -4,20 +4,84 @@
     {% include head.html %}
   </head>
   <body>
+  <nav class="navbar navbar-default">
+    <div class="container-fluid">
+      <!-- Brand and toggle get grouped for better mobile display -->
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+          <span class="sr-only">Toggle navigation</span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+      </div>
+      <!-- Collect the nav links, forms, and other content for toggling -->
+      <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+        <ul class="nav navbar-nav">
+          <li><a href="#">SERVICES</a></li>
+          <li><a href="#">OUR WORK</a></li>
+          <li><a href="#">TRUCK ACCESSORIES</a></li>
+          <li><a href="#">ABOUT US</a></li>
+          <li><a href="#">CONTACT</a></li>
+        </ul>
+      </div><!-- /.navbar-collapse -->
+    </div><!-- /.container-fluid -->
+  </nav>
+  <header>
+    <img class="logo" src="/uploads/wrench-screwdriver.png" alt="" />
+    <h1>LOCHMONDY'S AUTOMOTIVE</h1>
+    <h3>
+      TRUCK ACCESSORIES &amp; BODY WORK
+    </h3>
+  </header>
+  <section class="services">
     <div class="container">
-      {{ content }}
+      <h2>
+        {{ page.services[0].heading }}
+      </h2>
       <div class="row">
         <div class="col-sm-4">
-          {{ site.description }}
+          <i class="fa fa-truck fa-3x" aria-hidden="true"></i>
+          <h3>
+            {{ page.services[1].heading }}
+          </h3>
+          <p>
+            {{ page.services[1].body }}
+          </p>
         </div>
         <div class="col-sm-4">
-          {{ site.description }}
+          <i class="fa fa-paint-brush fa-3x" aria-hidden="true"></i>
+          <h3>
+            {{ page.services[2].heading }}
+          </h3>
+          <p>
+            {{ page.services[2].body }}
+          </p>
         </div>
         <div class="col-sm-4">
-          {{ site.description }}
+          <i class="fa fa-car fa-3x" aria-hidden="true"></i>
+
+          <h3>
+            {{ page.services[3].heading }}
+          </h3>
+          <p>
+            {{ page.services[3].body }}
+          </p>
         </div>
       </div>
     </div>
+  </section>
+  <section class="work">
+    <h2>OUR WORK</h2>
+  </section>
+  <section class="accessories">
+    <h2>TRUCK ACCESSORIES</h2>
+
+  </section>
+  <section class="contact">
+    <h2>WHERE TO FIND US</h2>
+
+  </section>
       <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
   </body>
 </html>
