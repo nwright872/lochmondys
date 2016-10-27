@@ -2,13 +2,13 @@
 title: Home
 permalink: "/"
 services:
-- heading: SERVICES
+- heading: WHAT WE DO
 - heading: TRUCK ACCESSORIES
   body: One of the longest running truck accessory shops in Indiana. We carry the brands you need most.
 - heading: AUTO BODY REPAIR
   body: Get the custom look you crave with our paint and bodywork services. Repair, replace or renovate your vehicle for whatever your needs are.
 - heading: CAR SALES
-  body: Reworked exterior damaged vehicles and made them look brand new. 
+  body: Reworked exterior damaged vehicles and made them look brand new.
 layout: homepage
 ---
 

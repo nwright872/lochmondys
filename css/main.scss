@@ -14,7 +14,7 @@ header{
   padding-top: 150px;
   text-align: center;
   height: 500px;
-  background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url('/uploads/car-repair.jpg');
+  background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url('/uploads/showroomedit.png');
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: cover;
@@ -62,9 +62,8 @@ section{
   text-align: center;
   h2{
     margin-top: 0px;
-    padding: 60px;
-    font-weight:100;
- }
+    padding: 60px 0 25px 0;
+  }
   p{
     margin-bottom: 30px;
   }
@@ -80,13 +79,44 @@ section{
     padding: 30px;
   }
 }
-.work{
-  min-height: 400px;
+.showroom{
+  min-height: 360px;
   background-color: #fff;
   color: #000;
+  p{
+    text-align: left;
+    padding: 0 50px;
+  }
+  .left-image{
+    margin: 10px 0;
+    width: 100%;
+    height: 360px;
+  }
+  .left-col {
+    padding-left: 0px;
+  }
+  .right-col{
+    background-color: #eee;
+    padding-right: 0px;
+    height: 360px;
+    margin-top: 10px;
+  }
 }
 .accessories{
-  min-height: 400px;
-  background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url('/uploads/repeatingbg.jpg');
-  background-size: contain;
+  min-height: 360px;
+  background-color: #eee;
+  color: #000;
+}
+.contact{
+  padding: 35px 0;
+  a{
+    color: #fff;
+    font-size: 20px;
+  }
+}
+.line-break{
+  height: 4px;
+  width: 50px;
+  background-color: #fff;
+  margin: 20px auto;
 }
