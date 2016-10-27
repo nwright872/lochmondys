@@ -2,7 +2,7 @@
 title: Home
 permalink: "/"
 services:
-- heading: SERVICES
+- heading: WHAT WE DO
 - heading: TRUCK ACCESSORIES
   body: One of the longest running truck accessory shops in Indiana. We carry the
     brands you need most.
