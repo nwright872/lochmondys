@@ -41,7 +41,9 @@ header{
   li>a {
       color: #fff;
       &:hover{
-        color: maroon;
+        background-color: #111;
+        color: #fff;
+        border-radius: 0 0 2px 2px;
       }
   }
 }
@@ -106,12 +108,27 @@ section{
   min-height: 360px;
   background-color: #eee;
   color: #000;
+  .line-break{
+    background-color: #000;
+  }
 }
 .contact{
+  background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url('/uploads/outside.png');
+  background-attachment: fixed;
+  background-size: cover;  text-align: left;
   padding: 35px 0;
   a{
     color: #fff;
     font-size: 20px;
+  }
+}
+.brands-bar{
+  background-color: maroon;
+  padding-bottom: 25px;
+  .brandlogobar{
+    height: 250px;
+    width:50%;
+    float:left;
   }
 }
 .line-break{
@@ -119,4 +136,16 @@ section{
   width: 50px;
   background-color: #fff;
   margin: 20px auto;
+}
+.left-bleed-image{
+  img{
+  width:50%;
+  float:left;
+  }
+}
+.right-bleed-image{
+  img{
+  width:50%;
+  float:right;
+  }
 }
