@@ -15,20 +15,21 @@
           <span class="icon-bar"></span>
         </button>
       </div>
+
       <!-- Collect the nav links, forms, and other content for toggling -->
       <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
         <ul class="nav navbar-nav">
+          <li><a href="index.html">HOME</a></li>
           <li><a href="#">SERVICES</a></li>
-          <li><a href="#">OUR WORK</a></li>
-          <li><a href="#">TRUCK ACCESSORIES</a></li>
+          <li><a href="accessories.html">TRUCK ACCESSORIES</a></li>
           <li><a href="#">ABOUT US</a></li>
-          <li><a href="#">CONTACT</a></li>
+          <li><a href="#location">CONTACT</a></li>
         </ul>
       </div><!-- /.navbar-collapse -->
     </div><!-- /.container-fluid -->
   </nav>
   <header>
-    <img class="logo" src="/uploads/Wrench-Screwdriver.png" alt="" />
+    <img class="logo" src="/uploads/toollogo.png" alt="" />
     <h1>LOCHMONDY'S AUTOMOTIVE</h1>
     <h3>
       TRUCK ACCESSORIES &amp; BODY WORK
@@ -39,6 +40,8 @@
       <h2>
         {{ page.services[0].heading }}
       </h2>
+      <div class="line-break"></div>
+
       <div class="row">
         <div class="col-sm-4">
           <i class="fa fa-truck fa-3x" aria-hidden="true"></i>
@@ -100,7 +103,7 @@
         <img class="brandlogobar" src="/uploads/brandbarrt.png" alt="" />
     </div>
   </section>
-  <section class="contact">
+  <section class="contact" id="location">
     <div class="container-fluid">
       <div class="row">
         <div class="col-sm-5 col-sm-offset-1">

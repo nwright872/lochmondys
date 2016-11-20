@@ -135,7 +135,8 @@ section{
   height: 4px;
   width: 50px;
   background-color: #fff;
-  margin: 20px auto;
+  margin: 30px auto;
+
 }
 .left-bleed-image{
   img{
@@ -147,5 +148,13 @@ section{
   img{
   width:50%;
   float:right;
+  }
+}
+
+.typesof{
+  background-color: maroon;
+  h3{
+    margin-top: 0px;
+    padding-top: 30px;
   }
 }
