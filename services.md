@@ -1,6 +1,6 @@
 ---
 title: Home
-permalink: "/about"
+permalink: "/services"
 services:
 - heading: WHAT WE DO
 - heading: TRUCK ACCESSORIES
@@ -11,7 +11,7 @@ services:
     replace or renovate your vehicle for whatever your needs are.
 - heading: CAR SALES
   body: Reworked exterior damaged vehicles and made them look brand new.
-layout: about
+layout: services
 ---
 
 # Lochmondy's
