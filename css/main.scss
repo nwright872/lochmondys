@@ -14,7 +14,7 @@ header{
   padding-top: 150px;
   text-align: center;
   height: 500px;
-  background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url('/uploads/showroomedit.png');
+  background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url('../uploads/showroomedit.png');
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: cover;
@@ -72,7 +72,7 @@ section{
 }
 
 .services{
-  background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url('/uploads/repeatingbg.jpg');
+  background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url('../uploads/repeatingbg.jpg');
   background-size: contain;
   min-height: 400px;
   i{
@@ -113,7 +113,7 @@ section{
   }
 }
 .contact{
-  background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url('/uploads/outside.png');
+  background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url('../uploads/outside.png');
   background-attachment: fixed;
   background-size: cover;  text-align: left;
   padding: 35px 0;
@@ -129,6 +129,15 @@ section{
     height: 250px;
     width:50%;
     float:left;
+  }
+  a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 1.25em;
+  }
+  a:hover{
+    text-decoration: none;
+    color: #eee;
   }
 }
 .line-break{
@@ -152,9 +161,118 @@ section{
 }
 
 .typesof{
-  background-color: maroon;
-  h3{
+  background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url('../uploads/showroomedit.png');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  background-position: bottom;
+  height: 300px;
+  color: #fff;
+  h2{
+    padding: 65px;
     margin-top: 0px;
-    padding-top: 30px;
+    color: #fff;
+  }
+  h4{
+  }
+}
+.accessory-section img{
+  height: 170px;
+  text-align: center;
+}
+
+section.images .row{
+  padding-top: 45px;
+}
+section.images{
+  padding-bottom: 65px;
+}
+section.main-services{
+  background-color: #fff;
+  color: #111;
+  header{
+    background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url('../uploads/shopbg1.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+    height: 300px;
+    color: #fff;
+    padding-top: 60px;
+    h2{
+      padding: 65px;
+      margin-top: 0px;
+      color: #fff;
+    }
+
+  }
+  h3{
+    margin: 35px;
+  }
+  p{
+    text-align: left;
+  }
+  .row{
+    background-color: maroon;
+    color: #fff;
+  }
+  img{
+    width: 100%;
+    margin: 45px;
+  }
+}
+section.insurance{
+  background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url('../uploads/repeatingbg.jpg');
+  background-size: auto;
+  padding: 35px;
+  h3{
+    margin: 0px;
+    padding:20px;
+  }
+}
+
+section.about-us{
+  header{
+    background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url('../uploads/shopbg1.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+    height: 300px;
+    color: #fff;
+    padding-top: 60px;
+    h2{
+      padding: 65px;
+      margin-top: 0px;
+      color: #fff;
+    }
+  }
+  article.who-we-are{
+    padding-bottom: 45px;
+    h2.proud-to-be{
+      background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url('../uploads/repeatingbg.jpg');
+      background-size: auto;
+      padding: 30px 0 30px 0;
+    }
+    h3{
+      padding-top: 45px;
+    }
+    .team-members{
+      background-color: maroon;
+      border-radius: 5px;
+
+      img{
+        width: 200px;
+        height: 200px;
+        border-radius: 100%;
+      }
+      h2{
+        padding: 30px 0 30px 0;
+
+      }
+      h3{
+        padding-top: 25px;
+      }
+    }
   }
 }
