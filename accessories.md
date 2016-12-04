@@ -1,6 +1,7 @@
 ---
 title: Accessories
 permalink: "/accessories"
+position: 3
 services:
 - heading: WHAT WE DO
 - heading: TRUCK ACCESSORIES
