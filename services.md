@@ -1,7 +1,7 @@
 ---
 title: Services
 permalink: "/services"
-position: 2
+position: 3
 services:
 - heading: WHAT WE DO
 - heading: TRUCK ACCESSORIES
