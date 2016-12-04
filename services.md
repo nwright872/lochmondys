@@ -1,5 +1,5 @@
 ---
-title: Home
+title: Services
 permalink: "/services"
 services:
 - heading: WHAT WE DO

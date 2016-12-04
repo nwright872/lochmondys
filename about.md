@@ -1,5 +1,5 @@
 ---
-title: Home
+title: About
 permalink: "/about"
 services:
 - heading: WHAT WE DO

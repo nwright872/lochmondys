@@ -1,5 +1,5 @@
 ---
-title: Home
+title: Accessories
 permalink: "/accessories"
 services:
 - heading: WHAT WE DO
