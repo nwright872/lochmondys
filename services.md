@@ -10,11 +10,11 @@ mainservices:
   body: content content conten studff
 - heading: Sales
   body: Reworked exterior damaged vehicles and made them look brand new.
-  image: ./uploads/truck1.jpg
-- image: ./uploads/truck3.jpg
+  image: "./uploads/truck1.jpg"
+- image: "./uploads/truck3.jpg"
 insurances:
 - heading: We're Covered by Insurance Group
-  images: ./uploads/insurance.png
+  images: "./uploads/insurance.png"
 layout: services
 ---
 
