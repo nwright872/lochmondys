@@ -4,6 +4,7 @@ permalink: "/"
 header:
 - heading: LOCHMONDY'S AUTOMOTIVE
   body: TRUCK ACCESSORIES &amp; BODY WORK
+  image: ./uploads/toollogo.png
 services:
 - heading: WHAT WE DO
 - heading: TRUCK ACCESSORIES
@@ -16,10 +17,17 @@ services:
   body: Reworked exterior damaged vehicles and made them look brand new.
 ourwork:
 - heading: OUR WORK
+  image: ./uploads/truck1.jpg
+- image: ./uploads/truck2.jpg
+- image: ./uploads/truck2.jpg
+- image: ./uploads/truckbed.jpg
+
 brandsbar:
 - heading: WHO WE CARRY
   body: We carry plows, caps, and many more accessories! Here are just a few of the
     brands we carry! <br>Call now for more information and prices!
+  image: ./uploads/brandbarlt.png
+- image: ./uploads/brandbarrt.png
 layout: homepage
 ---
 
