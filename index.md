@@ -1,6 +1,7 @@
 ---
 title: Home
 permalink: "/"
+position: 0
 services:
 - heading: WHAT WE DO
 - heading: TRUCK ACCESSORIES
