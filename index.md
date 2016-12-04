@@ -18,7 +18,8 @@ ourwork:
 - heading: OUR WORK
 brandsbar:
 - heading: WHO WE CARRY
-  body: We carry plows, caps, and many more accessories! Here are just a few of the brands we carry! <br>Call now for more information and prices!
+  body: We carry plows, caps, and many more accessories! Here are just a few of the
+    brands we carry! <br>Call now for more information and prices!
 layout: homepage
 ---
 
