@@ -16,7 +16,6 @@ accessoryimages:
 - heading: Vent Visors
 - heading: Rhino/Bush Gaurds
 - heading: Side Step Bars
-
 layout: accessories
 ---
 
