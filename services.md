@@ -2,16 +2,16 @@
 title: Services
 permalink: "/services"
 position: 2
-services:
-- heading: WHAT WE DO
-- heading: TRUCK ACCESSORIES
-  body: One of the longest running truck accessory shops in Indiana. We carry the
-    brands you need most.
-- heading: AUTO BODY REPAIR
-  body: Get the custom look you crave with our paint and bodywork services. Repair,
-    replace or renovate your vehicle for whatever your needs are.
-- heading: CAR SALES
+mainservices:
+- heading: OUR SERVICES
+- heading: Auto Body Work
+  body: Get the custom look...
+- heading: Loaner Cars
+  body: content content conten studff
+- heading: Sales
   body: Reworked exterior damaged vehicles and made them look brand new.
+insurances:
+- heading: We're Covered by Insurance Group
 layout: services
 ---
 

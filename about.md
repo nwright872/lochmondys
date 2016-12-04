@@ -2,16 +2,21 @@
 title: About
 permalink: "/about"
 position: 1
-services:
-- heading: WHAT WE DO
-- heading: TRUCK ACCESSORIES
-  body: One of the longest running truck accessory shops in Indiana. We carry the
-    brands you need most.
-- heading: AUTO BODY REPAIR
-  body: Get the custom look you crave with our paint and bodywork services. Repair,
-    replace or renovate your vehicle for whatever your needs are.
-- heading: CAR SALES
-  body: Reworked exterior damaged vehicles and made them look brand new.
+bioheader:
+- heading: ABOUT US
+bio:
+- heading: Proud to be one of Indiana's longest running truck accessory suppliers
+  body: Proud to be one of Indiana's longest running truck accessory suppliers
+- heading: EXTRAORDINARY CARE
+  body: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras sollicitudin commodo cursus. Morbi orci diam, molestie tristique velit ut, tempor venenatis tellus. Donec efficitur turpis ut elit faucibus, eget interdum ipsum iaculis. Cras massa nulla, dictum eget placerat vitae, feugiat id mauris. Curabitur quis metus mauris. Morbi aliquet lectus at libero luctus, blandit convallis quam pretium. Sed vel consectetur leo. Maecenas molestie varius velit sed semper. Aenean suscipit faucibus mauris id pharetra. Vivamus elementum ac ante eu pulvinar. Pellentesque sapien turpis, placerat id mauris et, fringilla tincidunt risus. Nam auctor nisl in finibus hendrerit. Suspendisse pulvinar semper sem sed imperdiet. Vivamus condimentum aliquam pharetra.
+- heading: OUR TEAM
+- heading: Chad
+- heading: Chad
+- heading: Chad
+- heading: Chad
+- heading: Chad
+- heading: Chad
+
 layout: about
 ---
 
