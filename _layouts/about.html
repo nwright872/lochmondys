@@ -29,64 +29,51 @@
   </nav>
   <section class="about-us">
     <header>
-      <h2>ABOUT US</h2>
+      <h2>
+        {{ page.bioheader[0].heading }}
+      </h2>
     </header>
   <article class="who-we-are">
     <h2 class="proud-to-be">
-      Proud to be one of Indiana's longest running truck accessory suppliers
-    </h3>
+      {{ page.bio[0].heading }}
+    </h2>
     <h3>
-      EXTRAORDINARY CARE
+      {{ page.bio[1].heading }}
     </h3>
     <div class="line-break"></div>
     <p>
       Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras sollicitudin commodo cursus. Morbi orci diam, molestie tristique velit ut, tempor venenatis tellus. Donec efficitur turpis ut elit faucibus, eget interdum ipsum iaculis. Cras massa nulla, dictum eget placerat vitae, feugiat id mauris. Curabitur quis metus mauris. Morbi aliquet lectus at libero luctus, blandit convallis quam pretium. Sed vel consectetur leo. Maecenas molestie varius velit sed semper. Aenean suscipit faucibus mauris id pharetra. Vivamus elementum ac ante eu pulvinar. Pellentesque sapien turpis, placerat id mauris et, fringilla tincidunt risus. Nam auctor nisl in finibus hendrerit. Suspendisse pulvinar semper sem sed imperdiet. Vivamus condimentum aliquam pharetra.
     </p>
-    <h3>
-      LOANER VEHICLES
-    </h3>
-    <div class="line-break"></div>
-    <p>
-      We will make arrangements for a rental car from Enterprise if you wish while your car is in our shop. Enterprise will bring your rental car to Peters the day you drop yours off.
-    </p>
     <div class="team-members container">
-      <h2>OUR TEAM</h2>
+      <h2>{{ page.employees[0].heading }}</h2>
       <div class="line-break"></div>
 
       <div class="row">
-        <div class="col-sm-3">
-          <h3>Chad<h3>
-          <img src="./uploads/ex-employee.jpg" alt="" />
+        <div class="col-sm-4">
+          <h3>{{ page.employees[1].heading }}<h3>
+          <img src="{{ page.employees[1].image }}" alt="" />
         </div>
-        <div class="col-sm-3">
-          <h3>Chad<h3>
-          <img src="./uploads/ex-employee5.jpg" alt="" />
+        <div class="col-sm-4">
+          <h3>{{ page.employees[2].heading }}<h3>
+          <img src="{{ page.employees[2].image }}" alt="" />
         </div>
-        <div class="col-sm-3">
-          <h3>Chad<h3>
-          <img src="./uploads/ex-employee4.jpg" alt="" />
-        </div>
-        <div class="col-sm-3">
-          <h3>Chad<h3>
-          <img src="./uploads/ex-employee2.jpg" alt="" />
+        <div class="col-sm-4">
+          <h3>{{ page.employees[3].heading }}<h3>
+          <img src="{{ page.employees[3].image }}" alt="" />
         </div>
       </div>
       <div class="row">
-        <div class="col-sm-3">
-          <h3>Chad<h3>
-          <img src="./uploads/ex-employee3.jpg" alt="" />
+        <div class="col-sm-4">
+          <h3>{{ page.employees[4].heading }}<h3>
+          <img src="{{ page.employees[4].image }}" alt="" />
         </div>
-        <div class="col-sm-3">
-          <h3>Chad<h3>
-          <img src="./uploads/ex-employee.jpg" alt="" />
+        <div class="col-sm-4">
+          <h3>{{ page.employees[5].heading }}<h3>
+          <img src="{{ page.employees[5].image }}" alt="" />
         </div>
-        <div class="col-sm-3">
-          <h3>Chad<h3>
-          <img src="./uploads/ex-employee5.jpg" alt="" />
-        </div>
-        <div class="col-sm-3">
-          <h3>Chad<h3>
-          <img src="./uploads/ex-employee2.jpg" alt="" />
+        <div class="col-sm-4">
+          <h3>{{ page.employees[6].heading }}<h3>
+          <img src="{{ page.employees[6].image }}" alt="" />
         </div>
       </div>
     </div>

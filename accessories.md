@@ -2,16 +2,28 @@
 title: Accessories
 permalink: "/accessories"
 position: 3
-services:
-- heading: WHAT WE DO
-- heading: TRUCK ACCESSORIES
-  body: One of the longest running truck accessory shops in Indiana. We carry the
-    brands you need most.
-- heading: AUTO BODY REPAIR
-  body: Get the custom look you crave with our paint and bodywork services. Repair,
-    replace or renovate your vehicle for whatever your needs are.
-- heading: CAR SALES
-  body: Reworked exterior damaged vehicles and made them look brand new.
+typesof:
+- heading: ACCESSORIES
+- heading: AN E-COMMERCE SITE IS COMING
+  body: We'll be displaying all of our available accessories and prices!
+accessoryimages:
+- heading: Here are some of our truck accessories
+- heading: Tool Boxes
+  image: "./uploads/accessory1.jpg"
+- heading: Hitch Recievers
+  image: "./uploads/accessory2.jpg"
+- heading: Tonno Covers
+  image: "./uploads/accessory3.jpg"
+- heading: Caps
+  image: "./uploads/accessory9.png"
+- heading: Cargo Racks
+  image: "./uploads/accessory5.jpg"
+- heading: Vent Visors
+  image: "./uploads/accessory6.jpg"
+- heading: Rhino/Bush Gaurds
+  image: "./uploads/accessory7.jpg"
+- heading: Side Step Bars
+  image: "./uploads/accessory8.jpg"
 layout: accessories
 ---
 

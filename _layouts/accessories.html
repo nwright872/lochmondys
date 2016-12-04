@@ -28,48 +28,56 @@
     </div><!-- /.container-fluid -->
   </nav>
   <section class="typesof">
-    <h2>ACCESSORIES</h2>
-    <h4>AN E-COMMERCE SITE IS COMING</h4>
-    <h4>We'll be displaying all of our available accessories and prices!</h4>
+    <h2>
+      {{ page.typesof[0].heading }}
+    </h2>
+    <h4>
+      {{ page.typesof[1].heading }}
+    </h4>
+    <h4>
+      {{ page.typesof[1].body }}
+    </h4>
   </section>
   <section class="images">
-    <h3>Here are some of our truck accessories</h3>
+    <h3>
+      {{ page.accessoryimages[0].heading }}
+    </h3>
     <div class="line-break"></div>
     <div class="container-fluid">
       <div class="row accessory-section">
         <div class="col-sm-3 col-xs-4">
-          <p>Tool Boxes</p>
-          <img src="./uploads/accessory1.jpg" alt="" />
+          <p>{{ page.accessoryimages[1].heading }}</p>
+          <img src="{{ page.accessoryimages[1].image }}" alt="" />
         </div>
         <div class="col-sm-3 col-xs-4">
-          <p>Hitch Recievers</p>
-          <img src="./uploads/accessory2.jpg" alt="" />
+          <p>{{ page.accessoryimages[2].heading }}</p>
+          <img src="{{ page.accessoryimages[2].image }}" alt="" />
         </div>
         <div class="col-sm-3 col-xs-4">
-          <p>Tonno Covers</p>
-          <img src="./uploads/accessory3.jpg" alt="" />
+          <p>{{ page.accessoryimages[3].heading }}</p>
+          <img src="{{ page.accessoryimages[3].image }}" alt="" />
         </div>
         <div class="col-sm-3 col-xs-4">
-          <p>Caps</p>
-          <img src="./uploads/accessory9.png" alt="" />
+          <p>{{ page.accessoryimages[4].heading }}</p>
+          <img src="{{ page.accessoryimages[4].image }}" alt="" />
         </div>
       </div>
       <div class="row accessory-section">
         <div class="col-sm-3 col-xs-4">
-          <p>Cargo Racks</p>
-          <img src="./uploads/accessory5.jpg" alt="" />
+          <p>{{ page.accessoryimages[5].heading }}</p>
+          <img src="{{ page.accessoryimages[5].image }}" alt="" />
         </div>
         <div class="col-sm-3 col-xs-4">
-          <p>Vent Visors</p>
-          <img src="./uploads/accessory6.jpg" alt="" />
+          <p>{{ page.accessoryimages[6].heading }}</p>
+          <img src="{{ page.accessoryimages[6].image }}" alt="" />
         </div>
         <div class="col-sm-3 col-xs-4">
-          <p>Rhino/Bush Gaurds</p>
-          <img src="./uploads/accessory7.jpg" alt="" />
+          <p>{{ page.accessoryimages[7].heading }}</p>
+          <img src="{{ page.accessoryimages[7].image }}" alt="" />
         </div>
         <div class="col-sm-3 col-xs-4">
-          <p>Side Step Bars</p>
-          <img src="./uploads/accessory8.jpg" alt="" />
+          <p>{{ page.accessoryimages[8].heading }}</p>
+          <img src="{{ page.accessoryimages[8].image }}" alt="" />
         </div>
       </div>
     </div>
