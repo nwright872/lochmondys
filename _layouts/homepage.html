@@ -30,9 +30,11 @@
   </nav>
   <header>
     <img class="logo" src="./uploads/toollogo.png" alt="" />
-    <h1>LOCHMONDY'S AUTOMOTIVE</h1>
+    <h1>
+      {{ page.header[0].heading }}
+    </h1>
     <h3>
-      TRUCK ACCESSORIES &amp; BODY WORK
+      {{ page.header[0].body }}
     </h3>
   </header>
   <section class="services">
@@ -62,7 +64,6 @@
         </div>
         <div class="col-sm-4">
           <i class="fa fa-car fa-3x" aria-hidden="true"></i>
-
           <h3>
             {{ page.services[3].heading }}
           </h3>
@@ -74,7 +75,9 @@
     </div>
   </section>
   <section class="accessories">
-      <h2>OUR WORK</h2>
+      <h2>
+        {{page.ourwork[0].heading }}
+      </h2>
       <div class="line-break"></div>
       <div class="container-fluid our-work">
         <div class="row">
@@ -91,25 +94,16 @@
             <img src="./uploads/truckbed.jpg" alt="" />
           </div>
         </div>
-        <!-- <div class="left-bleed-image">
-          <img src="./uploads/truck1.jpg" alt="" />
-        </div>
-        <div class="right-bleed-image">
-          <img src="./uploads/truck2.jpg" alt="" />
-        </div>
-        <div class="left-bleed-image">
-          <img src="./uploads/truck2.jpg" alt="" />
-        </div>
-        <div class="right-bleed-image">
-          <img src="./uploads/truckbed.jpg" alt="" />
-        </div> -->
       </div>
   </section>
   <section class="brands-bar">
-      <h2>WHO WE CARRY</h2>
+      <h2>
+        {{page.brandsbar.[0]heading }}
+      </h2>
       <div class="line-break"></div>
-      <p>We carry plows, caps, and many more accessories! Here are just a few of the brands we carry!</p>
-      <p>Call now for more infomation and prices</p>
+      <p>
+        {{page.brandsbar.[0]body }}
+      </p>
       <p><i class="fa fa-phone fa-1x" aria-hidden="true"></i><a href="tel:555-555-5555">  555-555-5555</a></p>
       <div class="container-fluid">
         <img class="brandlogobar" src="./uploads/brandbarlt.png" alt="" />
